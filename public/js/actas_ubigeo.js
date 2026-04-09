@@ -107,7 +107,6 @@ const verDetalle = (idx) => {
     hide('seccion-mesas'); show('seccion-detalle');
 };
 
-// Event Listeners
 $('cdgoAmbito').addEventListener('change',  e => cargarDepartamentos(e.target.value));
 $('cdgoDep').addEventListener('change',     () => cargarProvincias());
 $('cdgoProv').addEventListener('change',    () => cargarDistritos());

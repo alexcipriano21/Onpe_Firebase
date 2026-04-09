@@ -1,5 +1,5 @@
 @charset "utf-8";
-/* CSS Document */
+
  
 html {
     position: relative;
@@ -7,8 +7,7 @@ html {
 }
 
 body {
-    /* Fijamos un color de fondo para que se muestre mientras se está
-      cargando la imagen de fondo o si hay problemas para cargarla  */
+    
 	font-family: 'Roboto', sans-serif; margin-bottom: 262px; margin:0;
 }
 
@@ -154,7 +153,7 @@ border-radius: 10px;
 .line-der{border-right: 1px solid #ccc; }
 
 
-/*requisitos*/
+
 .cont-requi{-khtml-border-radius: 15px;
             -moz-border-radius: 15px;
             -webkit-border-radius: 15px;
@@ -174,37 +173,37 @@ border-radius: 10px;
 .tit-reg4 label{color:#4d4c49; font-weight: normal !important; }
 .ley{color:#cc8c10; font-size: 13px; }
 
-/* Hidding the radiobuttons &amp; checkboxes */
+
 input[type="radio"], input[type="checkbox"] {
     display: none; 
 }
-/* Styling background */
+
 label i:first-child {
     color: gray;
 }
-/* Hidding the "check" status of inputs */
+
 input[type="radio"] + label .fa-circle,
 input[type="checkbox"] + label .fa-check  {
     display: none; 
 }
-/* Styling the "check" status */
+
 input[type="radio"]:checked + label .fa-circle,
 input[type="checkbox"]:checked + label .fa-check {
     display: block;
     color: #cc8c10;
 }
-/* Styling checkboxes */
+
 input[type="checkbox"]:checked + label .fa-check {
     position: relative;
     left: .125em;
     bottom: .125em;
 }
-/* Styling radiobuttons */
+
 input[type="radio"]:checked + label .fa-circle-o {
     display: none;
 }
 
-/* add*/
+
 .logo-onpe {
     margin: 15px;
 }
@@ -413,19 +412,19 @@ border: 1px solid #b8902c; padding: 10px 10px 10px 10px; margin: 40px 0 0 0;}
     .menu05 ul li a{padding: 30px 133px 26px 133px; }
 }
 
-/*inicio tabla*/
+
 #page-wrap {
 	margin: 0px;
 }
 p {
 	margin: 20px 0; 
 }
-/*tabla*/
+
 	.table01 { 
 		width: 100%; 
 		border-collapse: collapse; 
 	}
-	/* Zebra striping */
+	
 	.table01 tr:nth-of-type(odd) { 
 		background: #eee; 
 	}
@@ -445,12 +444,12 @@ p {
 	.table01 tr:nth-child(n) td:nth-child(2){text-align: center!important; }
 	
 
-/*tabla*/        
+        
 	.table02 { 
 		width: 100%; 
 		border-collapse: collapse; 
 	}
-	/* Zebra striping */
+	
 	.table02 tr:nth-of-type(odd) { 
 		background: #eee; 
 	}
@@ -469,12 +468,12 @@ p {
 	.table02 tr:nth-child(n) td:last-child{text-align: center!important; }
 	.table02 tr:nth-child(n) td:nth-child(2){text-align: center!important; }
 
-/*tabla*/        
+        
 	.table03 { 
 		width: 100%; 
 		border-collapse: collapse; 
 	}
-	/* Zebra striping */
+	
 	.table03 tr:nth-of-type(odd) { 
 		background: #eee; 
 	}
@@ -494,13 +493,13 @@ p {
 	.table03 tr:nth-child(n) td:nth-child(2){text-align: center!important; }
 	.table03 tr:nth-child(n) td:nth-child(3){text-align: center!important; }
 
-/*tabla*/        
-/*tabla para presidente->resultado por tipo de votos*/
+        
+
 	.table03_2 { 
 		width: 100%; 
 		border-collapse: collapse; 
 	}
-	/* Zebra striping */
+	
 	.table03_2 tr:nth-of-type(odd) { 
 		background: #eee; 
 	}
@@ -521,12 +520,12 @@ p {
 	.table03_2 tr:nth-child(n) td:nth-child(3){text-align: center!important; }
 
 	
-/*tabla*/        
+        
 	.table04 { 
 		width: 100%; 
 		border-collapse: collapse; 
 	}
-	/* Zebra striping */
+	
 	.table04 tr:nth-of-type(odd) { 
 		background: #eee; 
 	}
@@ -544,12 +543,12 @@ p {
 	
 	.table04 tr:nth-child(n) td:nth-child(2){text-align: center!important; }
 
-/*tabla*/        
+        
 	.table05 { 
 		width: 100%; 
 		border-collapse: collapse; 
 	}
-	/* Zebra striping */
+	
 	.table05 tr:nth-of-type(odd) { 
 		background: #eee; 
 	}
@@ -566,12 +565,12 @@ p {
 	
 	.table05 tr:nth-child(n) td:nth-child(2){text-align: center!important; }
         
-/*tabla*/        
+        
 	.table06 { 
 		width: 100%; 
 		border-collapse: collapse; 
 	}
-	/* Zebra striping */
+	
 	.table06 tr:nth-of-type(odd) { 
 		background: #eee; 
 	}
@@ -593,7 +592,7 @@ p {
 		width: 100%; 
 		border-collapse: collapse; 
 	}
-	/* Zebra striping */
+	
 	.table06_acta_congreso tr:nth-of-type(odd) { 
 		background: #eee; 
 	}
@@ -611,12 +610,12 @@ p {
 
 	.table06_acta_congreso tr:nth-child(n) td:not(:nth-child(1)){text-align: center!important; }	
 
-/*tabla*/
+
 	.table07 { 
 		width: 100%; 
 		border-collapse: collapse; 
 	}
-	/* Zebra striping */
+	
 	.table07 tr:nth-of-type(odd) { 
 		background: #eee; 
 	}
@@ -632,12 +631,12 @@ p {
 		text-align: center; 
 	} 
         
-/*tabla, esto es para tabla detalle de congresales de resultados en votos por candidato*/
+
 	.table07_2 { 
 		width: 100%; 
 		border-collapse: collapse; 
 	}
-	/* Zebra striping */
+	
 	.table07_2 tr:nth-of-type(odd) { 
 		background: #eee; 
 	}
@@ -653,12 +652,12 @@ p {
 		text-align: center; 
 	} 
 	
-/*tabla*/
+
 	.table08 { 
 		width: 100%; 
 		border-collapse: collapse; 
 	}
-	/* Zebra striping */
+	
 	.table08 tr:nth-of-type(odd) { 
 		background: #eee; 
 	}
@@ -675,12 +674,12 @@ p {
 	}
 
         
-/*tabla*/
+
 	.table09 { 
 		width: 100%; 
 		border-collapse: collapse; 
 	}
-	/* Zebra striping */
+	
 	.table09 tr:nth-of-type(odd) { 
 		background: #eee; 
 	}
@@ -697,12 +696,12 @@ p {
 	}
 
 
-/*tabla para tabla de pantalla principal de participacion ciudadana*/
+
 	.table09_2 { 
 		width: 100%; 
 		border-collapse: collapse; 
 	}
-	/* Zebra striping */
+	
 	.table09_2 tr:nth-of-type(odd) { 
 		background: #eee; 
 	}
@@ -719,12 +718,12 @@ p {
 	}
 	
 
-/*tabla*/
+
 	.table10 { 
 		width: 100%; 
 		border-collapse: collapse; 
 	}
-	/* Zebra striping */
+	
 	.table10 tr:nth-of-type(odd) { 
 		background: #eee; 
 	}
@@ -740,12 +739,12 @@ p {
 		text-align: center; 
 	}
 
-/*tabla Continente*/
+
 	.table11 { 
 		width: 100%; 
 		border-collapse: collapse; 
 	}
-	/* Zebra striping */
+	
 	.table11 tr:nth-of-type(odd) { 
 		background: #eee; 
 	}
@@ -760,12 +759,12 @@ p {
 		text-align: center; 
 	}
         
-/*tabla*/
+
 	.table12 { 
 		width: 100%; 
 		border-collapse: collapse; 
 	}
-	/* Zebra striping */
+	
 	.table12 tr:nth-of-type(odd) { 
 		background: #eee; 
 	}
@@ -781,12 +780,12 @@ p {
 		text-align: center; 
 	}
 
-/*tabla*/
+
 	.table13 { 
 		width: 100%; 
 		border-collapse: collapse; 
 	}
-	/* Zebra striping */
+	
 	.table13 tr:nth-of-type(odd) { 
 		background: #eee; 
 	}
@@ -802,12 +801,12 @@ p {
 		text-align: center; 
 	}
         
-/*tabla*/
+
 	.table14 { 
 		width: 100%; 
 		border-collapse: collapse; 
 	}
-	/* Zebra striping */
+	
 	.table14 tr:nth-of-type(odd) { 
 		background: #eee; 
 	}
@@ -823,12 +822,12 @@ p {
 		text-align: center; 
 	}
         
-/*tabla*/
+
 	.table15 { 
 		width: 100%; 
 		border-collapse: collapse; 
 	}
-	/* Zebra striping */
+	
 	.table15 tr:nth-of-type(odd) { 
 		background: #eee; 
 	}
@@ -845,12 +844,12 @@ p {
 	}      
         
         
-/*tabla*/
+
 	.table16 { 
 		width: 100%; 
 		border-collapse: collapse; 
 	}
-	/* Zebra striping */
+	
 	.table16 tr:nth-of-type(odd) { 
 		background: #eee; 
 	}
@@ -866,12 +865,12 @@ p {
 	}      
         
         
-/*tabla*/
+
 	.table17 { 
 		width: 100%; 
 		border-collapse: collapse; 
 	}
-	/* Zebra striping */
+	
 	.table17 tr:nth-of-type(odd) { 
 		background: #fff; 
 	}
@@ -886,12 +885,12 @@ p {
 		text-align: center; 
 	}  
 	
-	/*tabla*/
+	
 	.table18 { 
 		width: 100%; 
 		border-collapse: collapse; 
 	}
-	/* Zebra striping */
+	
 	.table18 tr:nth-of-type(odd) { 
 		background: #eee; 
 	}
@@ -911,15 +910,15 @@ p {
 	.table18 tr:nth-child(n){text-align: center!important; }
 	
         
-/*fin tabla*/
 
 
-/*tabla País*/
+
+
         .table19 { 
                width: 100%; 
                border-collapse: collapse; 
         }
-        /* Zebra striping */
+        
         .table19 tr:nth-of-type(odd) { 
                background: #eee; 
         }
@@ -934,12 +933,12 @@ p {
                text-align: center; 
         }
 
-/*tabla Ciudad*/
+
         .table20 { 
                width: 100%; 
                border-collapse: collapse; 
         }
-        /* Zebra striping */
+        
         .table20 tr:nth-of-type(odd) { 
                background: #eee; 
         }
@@ -954,12 +953,12 @@ p {
                text-align: center; 
         }
 
-/*tabla Departamento*/
+
         .table21 { 
                width: 100%; 
                border-collapse: collapse; 
         }
-        /* Zebra striping */
+        
         .table21 tr:nth-of-type(odd) { 
                background: #eee; 
         }
@@ -974,12 +973,12 @@ p {
                text-align: center; 
         }
 
-/*tabla Distrito*/
+
         .table22 { 
                width: 100%; 
                border-collapse: collapse; 
         }
-        /* Zebra striping */
+        
         .table22 tr:nth-of-type(odd) { 
                background: #eee; 
         }
@@ -994,12 +993,12 @@ p {
                text-align: center; 
         }
 
-/*tabla*/
+
         .table23 { 
 			   width: 100%; 
 			   border-collapse: collapse; 
 		}
-		/* Zebra striping */
+		
 		.table23 tr:nth-of-type(odd) { 
 				background: #eee; 
 		}
